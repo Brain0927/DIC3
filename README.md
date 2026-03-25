@@ -58,5 +58,7 @@
 如果您想要用 AI 重新產生這些強大的視覺化與模擬程式，只需打開 `.md` 結尾的 Prompt 檔案並複製內容給大型語言模型 (如 ChatGPT, Claude, Gemini)：
 - `ABtestPrompt.md` -> 產出 Explore-then-Exploit 200 次實驗雙拼圖
 - `EpsilonGreedyPrompt.md` -> 產出 $\epsilon$-Greedy 參數掃描與對比圖
+- `UCBPrompt.md` -> 產出 UCB (Upper Confidence Bound) 的參數掃描與對應長條圖
+- `ThompsonSamplingPrompt.md` -> 產出「業界最強大」的湯普森採樣，並直接跨演算法 PK (大戰) 貪婪演算法與 UCB
 
 圖表本身會自動儲存為 `.png`，並確保色彩映射、標籤與文字標註符合專業數據科學簡報水準。
